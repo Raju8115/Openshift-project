@@ -83,7 +83,6 @@ WSGI_APPLICATION = 'CollegeERP.wsgi.application'
 
 ENGINE = 'django.db.backends.mysql'
 
-
 # Database
 # https://docs.djangoproject.com/en/2.1/ref/settings/#databases
 
