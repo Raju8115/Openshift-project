@@ -51,6 +51,9 @@ CSRF_TRUSTED_ORIGINS = [
     'https://openshift-project-git-raju-a-dev.apps.rm3.7wse.p1.openshiftapps.com',
 ]
 
+CSRF_COOKIE_SECURE = False  # Don't use HTTPS cookies
+# CSRF_TRUSTED_ORIGINS = ['your-frontend-domain.com']  # Allow trusted domains
+
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
