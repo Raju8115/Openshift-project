@@ -47,6 +47,10 @@ INSTALLED_APPS = [
 
 ]
 
+CSRF_TRUSTED_ORIGINS = [
+    'https://openshift-project-git-raju-a-dev.apps.rm3.7wse.p1.openshiftapps.com',
+]
+
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
